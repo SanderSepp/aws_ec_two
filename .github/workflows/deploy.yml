@@ -36,8 +36,8 @@ jobs:
             rm -rf /home/ubuntu/aws_ec_two
             git clone https://github.com/SanderSepp/aws_ec_two.git
             cd aws_ec_two
-            git checkout master
-            git pull origin master
+            git checkout main
+            git pull origin main
             sudo chmod +x ./deploy.sh
             ./deploy.sh
           '
